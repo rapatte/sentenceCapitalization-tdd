@@ -1,0 +1,19 @@
+{
+  "name": "sentencecapitalization-tdd",
+  "version": "1.0.0",
+  "description": "algo qui renvoie la phrase rentrée en paramètre avec une majuscule au début de chaque mot",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rapatte/sentenceCapitalization-tdd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rapatte/sentenceCapitalization-tdd/issues"
+  },
+  "homepage": "https://github.com/rapatte/sentenceCapitalization-tdd#readme"
+}
