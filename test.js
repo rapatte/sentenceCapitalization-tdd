@@ -1,13 +1,17 @@
 const sentenceCapitalization = require('./index');
 
-test('sentenceCapitalization is a function', () => {
-    expect(typeof sentenceCapitalization).toEqual('function')
+test('Capitalize is a function', () => {
+  expect(typeof sentenceCapitalization).toEqual('function');
 });
 
-test('Capitalize the first letter of each word', () => {
-    expect(sentenceCapitalization('bonjour comment vas tu?').toEqual('Bonjour Comment Vas Tu?'));
+test('capitalizes the first letter of every word in a sentence', () => {
+  expect(sentenceCapitalization('hi there, how is it going?')).toEqual(
+    'Hi There, How Is It Going?'
+  );
 });
 
-test('Capitalize the first letter', () => {
-    expect(sentenceCapitalization('bonjour').toEqual('Bonjour'));
+test('capitalizes the first letter', () => {
+  expect(sentenceCapitalization('i love breakfast at bill miller bbq')).toEqual(
+    'I Love Breakfast At Bill Miller Bbq'
+  );
 });
